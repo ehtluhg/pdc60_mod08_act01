@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pdc60_module08.Android", "pdc60_module08\pdc60_module08.Android\pdc60_module08.Android.csproj", "{0331E07A-BA60-4DA0-863A-EF2248B5C465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pdc60_module08", "pdc60_module08\pdc60_module08\pdc60_module08.csproj", "{AFE7248A-1B59-4D9C-80FC-317D06082827}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0331E07A-BA60-4DA0-863A-EF2248B5C465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0331E07A-BA60-4DA0-863A-EF2248B5C465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0331E07A-BA60-4DA0-863A-EF2248B5C465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0331E07A-BA60-4DA0-863A-EF2248B5C465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE7248A-1B59-4D9C-80FC-317D06082827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE7248A-1B59-4D9C-80FC-317D06082827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE7248A-1B59-4D9C-80FC-317D06082827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE7248A-1B59-4D9C-80FC-317D06082827}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82939722-D0F4-49C8-85CD-B3AD6B5EBA20}
+	EndGlobalSection
+EndGlobal
