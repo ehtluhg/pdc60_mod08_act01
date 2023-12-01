@@ -22,8 +22,8 @@ namespace pdc60_module08
 
     public partial class MainPage : ContentPage
     {
-        public const string url = "http://172.20.10.2/pdc60/api_create.php";
-        public const string url_retrieve = "http://172.20.10.2/pdc60/api_r2.php";
+        public const string url = "http://172.20.10.4/pdc60/api_create.php";
+        public const string url_retrieve = "http://172.20.10.4/pdc60/api_r2.php";
 
         private HttpClient _Client = new HttpClient();
         private ObservableCollection<Post> _post;
@@ -63,6 +63,12 @@ namespace pdc60_module08
             Post_List.ItemsSource = _post;
             base.OnAppearing();
         }
+
+        private async void Search_Page_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SearchPage());
+        }
+
     }
 }
 

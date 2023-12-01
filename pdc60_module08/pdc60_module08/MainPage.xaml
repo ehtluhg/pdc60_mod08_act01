@@ -4,6 +4,7 @@
              x:Class="pdc60_module08.MainPage">
 
     <StackLayout>
+        <Button Text="Search" Clicked="Search_Page_Clicked"></Button>
         <Button Text="Add Record" Clicked="OnAdd"></Button>
         <Button Text="Refresh" Clicked="OnRefresh"></Button>
 
